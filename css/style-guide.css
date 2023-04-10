@@ -1,0 +1,37 @@
+
+/* color palette */
+
+.element {
+    display: contents;
+}
+
+#palette1 {
+  background-color: #25d3f4;
+  font-weight: bolder;
+}
+
+#palette2 {
+  background-color: white;
+  font-weight: bolder;
+  color:#25d3f4;
+}
+
+
+#palette3 {
+  background-color: #fb4e03;
+  font-weight: bolder;
+  color:#2c2c2c;
+}
+
+#palette4 {
+  background-color: #979797;
+  font-weight: bolder;
+  color:#2c2c2c;
+}
+
+#palette5 {
+  background-color: #2c2c2c;
+  font-weight: bolder;
+  color:#ffffff;
+}
+
