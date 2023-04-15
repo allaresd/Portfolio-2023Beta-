@@ -242,6 +242,12 @@ nav li{
     margin-top: 50px;
 }
 
+.project-takeaways {
+    margin-left:60px;
+    margin-right: 60px;
+    padding-bottom: 50px;
+}
+
 .woundification-introduction {
     margin-top: 40px;
 }
@@ -301,6 +307,21 @@ h3 span.tools-icon {
     background-size: cover;
 }
 
+h3 span.takeaways-icon {
+    display: inline-block;
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+    background-image: url("/images/project-icons/takeaways.png");
+    background-size: cover;
+}
+
+/* project-videos */
+.project-video video {
+    width: 100%;
+    height: auto;
+    object-fit:  cover;
+}
 
 /* project-navigation */
 .project-navigation a::after {
