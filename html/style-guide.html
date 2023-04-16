@@ -5,52 +5,154 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=0.5"> 
     <title>DongDon't</title>
-    <link href="css/style-guide.css" rel="stylesheet">
+    <link href="/css/style-guide.css" rel="stylesheet">
   </head>
 
-  <body>
-    <header></header>
-
-
-
-    <section class="element">
-      <h1>This is H1</h1>
-      <h2>This is H2</h2>
-      <h3>This is H3</h3>
-      <h4>This is H4</h4>
-
-
-        <h2>Colour palettes</h2>
-
-        <div class="color-palettes">
-        <div id="palette1">
-            <p>Secondary Colour: #25d3f4</p>
-            <p class="text-under-palettes">This colour can be applied to dividing lines.</p>
+  <body class="container">
+    <div class="box">
+      <header>
+        <div class="header-container">
+          <div id="my-website">
+            <a href="/html/style-guide.html">Dong Sun's Portfolio Style Guide</a>
+          </div>
+          <!-- <div id="logo-header">
+            <a href="homepage(work).html"><img src="/images/logo-black.png" alt="logo"></a>
+          </div> -->
+          <nav>
+            <ul>
+              <li><a href="#combined-elements">Combined Elements</a ></li>
+              <li><a href="#text">Text</a></li>
+              <li><a href="#color">Color</a></li>
+              <li><a href="#icons">Icons</a></li>
+              <li><a href="#citation">Citation</a></li>
+              <li><a href="/html/homepage(work).html">The Website</a></li>
+            </ul>
+          </nav>
         </div>
-        <div id="palette2">
-            <p>Primary Colour: white</p>
-            <p class="text-under-palettes">This is the brand color. Apply it in the main buttons, outlines while hovering, section title, decoration lines and in-text-links. </p>
-        </div>
-        <div id="palette3">
-            <p>Secondary Colour: #fb4e03</p>
-            <p class="text-under-palettes">This colour can be applied to text, such as navigation link and secondary navigation. </p>
-        </div>
-        <div id="palette4">
-            <p>Secondary Colour: #979797</p>
-            <p class="text-under-palettes">You can use this color in less important text, such as some auxiliary explanatory text.</p>
-        </div>
-        <div id="palette5">
-            <p>Secondary Colour: #2c2c2c</p>
-            <p class="text-under-palettes">You can use this colour in important text, such as body text. </p>
+      </header>
+
+      <div class="content">
+        <div class="content-body-1">
+          <div id="combined-elements">
+            <h1>COMBINED ELEMENTS</h1>
+            <section class="in-text-link">
+              <h2>In-text Link</h2>
+              <h3>Rendered Elements</h3>
+              <p>Find out more <a href="/html/about.html">about me.</a></p>
+            </section>
+
+            <section id="button">
+              <h2>Button</h2>
+              <h3>Rendered Elements</h3>
+              <input type="button" id="view-project-2" onclick="location.href='/html/project-2.html'" value="View Project">
+            </section>
+
+          </div>
+
+          <section id="text">
+            <h1>TEXT</h1>
+            <section class="title">
+              <h2>Title</h2>
+              <h3>Rendered Elements</h3>
+              <h1>This is H1</h1>
+              <h2 id="this-is-h2">This is H2</h2>
+              <h3>This is H3</h3>
+              <h4>This is H4</h4>
+            </section>
+
+            <section class="paragraph">
+              <h2>Paragraph</h2>
+              <h3>Rendered Elements</h3>
+              <p>Dong, a seeker of media technology/ commercial communication/ video maker, is making himself a slash coincidentally. He has two years of branding and mapping working experience in the e-commerce and geographical information industry. As for the next position, he would like to be a front-end developer and project manager.</p>
+            </section>
+          </section>
+
+          <section id="color">
+            <h1>Color Scheme</h1>
+
+            <div id="palette1">
+              <p>Secondary Colour: #25d3f4</p>
+              <p class="text-under-palettes">This colour can be applied to dividing lines.</p>
+            </div>
+
+            <div id="palette2">
+                <p>Primary Colour: white</p>
+                <p class="text-under-palettes">This is the brand color. Apply it in the main buttons, outlines while hovering, section title, decoration lines and in-text-links. </p>
+            </div>
+
+            <div id="palette3">
+                <p>Secondary Colour: #fb4e03</p>
+                <p class="text-under-palettes">This colour can be applied to text, such as navigation link and secondary navigation. </p>
+            </div>
+
+            <div id="palette4">
+                <p>Secondary Colour: #979797</p>
+                <p class="text-under-palettes">You can use this color in less important text, such as some auxiliary explanatory text.</p>
+            </div>
+
+            <div id="palette5">
+                <p>Secondary Colour: #2c2c2c</p>
+                <p class="text-under-palettes">You can use this colour in important text, such as body text. </p>
+            </div>
+  
+          </section>
+
+          <section id="icons">
+            <h1>Icons</h1>
+            <img src="/images/style-guide/icon-showcase.png">
+          </section>
+
+
+          <section id="citation">
+
+          <h1>Citation</h1>
+          </section>
+
+
+
 
         </div>
 
+        <div class="content-body-2">
+          <ul>
+            <li>W3Schools. (2022). <strong>How TO - Top Navigation [Online Tutorial]</strong>. Retrieved from <a href="https://www.w3schools.com/howto/howto_js_topnav.asp">here</a>.</li>
+            <li>W3Schools. (2022).<strong>Display a Month Input Control [Online Tutorial]</strong>. Retrieved from <a href="https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_input_type_month">here</a></li>
+            <li>W3Schools. (2022). <strong>How TO - Product Card [Online Tutorial]</strong>. Retrieved from <a href="https://www.w3schools.com/howto/howto_css_product_card.asp">here</a>.</li>
+            <li>Shay Howe. (2022).<strong>Building Forms [Online Tutorial]</strong>. Retrieved from <a href="https://learn.shayhowe.com/html-css/building-forms/#organizing-form-elements">here</a></li>
+            <li>Steve. (2021). <strong>Linking Image in HTML: How to create links from images [Online Tutorial]</strong>. Retrieved from <a href="https://pagedart.com/blog/linking-images-in-html/">here</a>.</li>
+            <li>W3Schools. (2022). <strong>HTML Ordered Lists [Online Tutorial]</strong>. Retrieved from <a href="https://www.w3schools.com/html/html_lists_ordered.asp">here</a>.</li>
+          </ul>
+          
+
         </div>
-    </section>
 
-    <div></div>
 
-    <footer></footer>
+
+
+        <footer class="content-footer">
+          <div class="mobile-footer"></div>
+          <div class="logo-footer">
+            <a href="homepage(work).html"><img src="/images/logo-black.png" alt="logo"></a>
+          </div>
+          <div class="social-media-icons">
+            <a href="https://www.instagram.com/allaresd_/"><img src="/images/social-media-icons/instagram-line.svg" alt="instagram"></a>
+            <a href="https://www.linkedin.com/in/dong-sun-41874820a/"><img src="/images/social-media-icons/linkedin-fill.svg" alt="linkedin"></a>
+            <a href="https://github.com/allaresd"><img src="/images/social-media-icons/github-fill.svg" alt="github"></a>
+            <!-- <div><a href="https://www.instagram.com/allaresd_/"></a></div>
+            <div><a href="https://www.linkedin.com/in/dong-sun-41874820a/"></a></div>
+            <div><a href="https://github.com/allaresd"></a></div> -->
+          </div>
+          <div id="footer-text">
+            <div id="footer-text-links">
+              <p><a href="/html/style-guide.html">Style Guide</a></p>
+              <p><a href="/html/style-guide.html">Citation</a></p>
+              <p><a href="https://github.com/allaresd/Portfolio-2023Beta-.git">Git Repository</a></p>
+            </div>
+            <div><p>© 2023 Designed and Built by Dong Sun</p></div>
+         </div>
+        </footer>
+      </div>
+    </div>
   </body>
-
 </html>
+

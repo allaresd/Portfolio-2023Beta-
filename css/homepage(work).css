@@ -347,14 +347,14 @@ footer {
 
 }
 
-@media (min-width: 970px) and (max-width: 1200px) {
+@media (min-width: 990px) and (max-width: 1200px) {
     .intro, #title-take-a-look {
         margin-left: 20%;
         margin-right: 42%;
     }
 }
 
-@media (min-width: 0px) and (max-width: 970px) {
+@media (min-width: 0px) and (max-width: 990px) {
     .intro, #title-take-a-look {
         margin-left: 16%;
         margin-right: 16%;

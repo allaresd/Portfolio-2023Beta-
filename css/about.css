@@ -35,6 +35,7 @@ h3 {
     color: #2c2c2c;
     font-size: 2rem;
     font-weight: 500;
+    
 }
 
 h4 {
@@ -49,6 +50,7 @@ footer {
     color: #2c2c2c;
     font-weight: 400;
     font-size: smaller;
+    line-height: 0.6;
 }
 
 p {
@@ -348,7 +350,8 @@ footer {
     }
 
     .self-introduction {
-        margin-top: 50px;
+        margin-top: 30px;
+        text-align: left;
     }
 
     #footer-text {
@@ -371,9 +374,6 @@ footer {
         justify-content: center;
     }
 
-    .content-body-2 h2{
-        text-align: center;
-    }
 
     input[type=button] {
         position: relative;
