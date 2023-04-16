@@ -217,9 +217,9 @@ nav li{
 
 .interactive-screen img{
     height: auto; 
-    width: auto\9; 
+    /* width: auto\9;  */
     width: 100%;
-    object-fit: auto;
+    object-fit: cover;
 }
 /* To make sure the image fit to the screen. "\9" is specific to IE browser. */
 
