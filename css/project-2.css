@@ -199,7 +199,7 @@ nav li{
 
 .project-introduction-1 {
     display: grid;
-    grid-template-columns: 43% 27% 30%;
+    grid-template-columns: 37% 33% 30%;
     margin-left: 60px;
     margin-right: 60px;
 }
@@ -406,6 +406,7 @@ footer {
     .project-type, .project-duration, .project-roles, .project-context, .project-description, .project-tools {
         margin-left: 60px;
         margin-right: 60px;
+        margin-top: 0px;
     }
 
     .content-body-2 img {
