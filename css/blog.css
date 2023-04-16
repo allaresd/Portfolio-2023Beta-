@@ -32,7 +32,7 @@ h2 {
 
 h3 {
     font-family: 'Lato', sans-serif;
-    color: #25d3f4;
+    color: #2c2c2c;
     font-size: 2.5rem;
     font-weight: 500;
 }
@@ -106,6 +106,10 @@ header {
     height: 30px;
 }
 
+#my-website {
+    margin-left: 20px;
+}
+
 nav a, #my-website a {
     text-decoration: none;
     color: #25d3f4;
@@ -142,22 +146,22 @@ nav li{
 
 .content-body-1 {
     background-color: white;
+    display: block;
+    margin-left: 15%;
+    margin-right: 42%;
+    padding-top: 30px;
 }
 
-
-.previous {
-    margin-left: 16%;
-    margin-right: 46%;
-}
 
 .content-body-2 {
     position: relative;
     max-width: 1000px;
     margin: 0 auto;
-    padding-top: 100px;
 }
 
-
+.content-body-2 h2{
+    text-align: left;
+}
 
 #project-2 {
     margin-top: 7rem;
@@ -165,6 +169,7 @@ nav li{
 
 }
 
+/* button & common setting*/
 .content-body-2 {
     max-width: 1000px;
     display: grid;
@@ -176,6 +181,53 @@ nav li{
     object-fit: cover;
     border-radius: 4px;
 }
+
+.project-box p{
+    margin-top: 0;
+
+}
+.project-container {
+    display: flex;
+    height: 220px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.article-introduction {
+    margin-left: 70px;
+    position: relative;
+}
+
+.tag-and-date {
+    display: flex;
+}
+
+.date {
+    margin-left: 40px;
+}
+
+
+input[type=button] {
+    height: 50px;
+    width: 140px;
+    position: absolute;
+    bottom: 0;
+    font-size: large;
+    font-weight: 600;
+    color: #fb4e03;
+    background-color: transparent;
+    border:2px solid #fb4e03;
+    border-radius: 4px;
+}
+
+input[type=button]:hover  {
+    color: #2c2c2c;
+    border:2px solid #2c2c2c;
+    cursor: pointer;
+    transition-property: background-color; 
+    transition-duration: 0.2s;
+  }
+
 
 
 
@@ -237,19 +289,6 @@ footer {
 /* media-query */
 @media (min-width: 0px) and (max-width: 1200px) {
 
-    .short-bio {
-        margin-right: 40px;
-        margin-left: 40px;
-    }
-
-    #my-website {
-        margin-left: 20px;
-    }
-
-    .content-body-2 {
-        margin-left: 20px;
-        margin-right:20px
-    }
 
     #footer-text {
         margin-left: 20px;
@@ -259,29 +298,12 @@ footer {
 }
 
 @media (min-width: 800px) and (max-width: 1200px) {
-    .intro, .title-take-a-look {
-        margin-left: 20%;
-        margin-right: 42%;
-    }
+
 }
 
 @media (min-width: 0px) and (max-width: 800px) {
-    .intro, .title-take-a-look {
-        margin-left: 16%;
-        margin-right: 16%;
-    }
-
-    .content-body-2 {
-        display: grid;
-        align-items: center;
-        justify-content: center;
-    }
 
 
-    .project-introduction {
-        margin-left: 0;
-        margin-top: 20px;
-    }
 
     input[type=button] {
         position: relative;
