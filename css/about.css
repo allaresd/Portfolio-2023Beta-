@@ -1,0 +1,405 @@
+/* font */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Roboto:wght@400;500;900&display=swap');
+
+/* Source: Google family: https://fonts.google.com/specimen/Lato?query=Lato */
+
+body {
+    min-width: 320px;
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(#76F884, #24D2F8);
+    color: #2c2c2c;
+    font-weight: 400;
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+    color: #25d3f4;
+    font-size: 4rem;
+    font-weight: 900;
+    letter-spacing: -2px;
+    line-height: 1.3;
+}
+
+h2 {
+    font-family: 'Lato', sans-serif;
+    color: #2c2c2c;
+    font-size: 2.5rem;
+    font-weight: 900;
+    letter-spacing: -1px;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+    color: #2c2c2c;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    color: #2c2c2c;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+footer {
+    font-family: 'Roboto', sans-serif;
+    color: #2c2c2c;
+    font-weight: 400;
+    font-size: smaller;
+}
+
+p {
+    line-height: 25px;
+}
+
+p a {
+    text-decoration: none;
+    color: #25d3f4;
+}
+
+p a:hover, a:focus {
+    color: #fb4e03;
+    padding-bottom: 4px;
+    font-weight: 500;
+    border-bottom: 1px solid #fb4e03;
+    transition-property: color;
+    transition-duration: 0.1s;
+} 
+
+h3 a{
+    text-decoration: none;
+    color: #2c2c2c;
+}
+
+h3 a:hover, h3:focus {
+    color: #fb4e03;
+    padding-bottom: 4px;
+    font-weight: 500;
+    border-bottom: 1px solid #fb4e03;
+    transition-property: color;
+    transition-duration: 0.1s;
+} 
+
+/* font(end)*/
+
+.container{
+    width: 100%;
+    margin:0 auto;
+}
+
+.box{
+    width:100%;
+}
+
+/* nagivation bar(normal) */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    width: 100%;
+    border-bottom: 1px solid #4d4d4d;
+    z-index: 101;
+}
+
+.header-container {
+    margin: auto;
+    max-width: 1000px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo-header img {
+    width: 30px;
+    height: 30px;
+}
+
+#my-website {
+    margin-left: 20px;
+}
+
+nav a, #my-website a {
+    text-decoration: none;
+    color: #25d3f4;
+}
+
+nav a:hover, nav a:focus, #my-website a:hover, #my-website a:focus {
+    color: #fb4e03;
+    padding-bottom: 4px;
+    font-weight: 500;
+    border-bottom: 2px solid #fb4e03;
+    transition-property: color;
+    transition-duration: 0.2s;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav li{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+/* nagivation bar(normal)-end */
+
+
+/* content */
+.content {
+    position: relative;
+    width:100%;
+    margin:0 auto;
+}
+
+.content-body-1 {
+    background-color: white;
+    display: block;
+    margin-left: 16%;
+    margin-right: 40%;
+    padding-top: 30px;
+}
+
+
+.content-body-2 {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.content-body-2 h2{
+    text-align: left;
+}
+
+.content-body-2 section {
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+/* button & common setting*/
+.content-body-2 {
+    max-width: 1000px;
+}
+
+.introduction {
+    display: flex;
+}
+
+.self-introduction {
+    top: 0;
+    margin-left: 80px;
+    margin-right: 60px;
+}
+
+.pillars {
+    margin-left: 20px;
+}
+
+.long-version-introduction {
+    margin-top: 50px;
+}
+
+.my-photo img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+
+
+input[type=button] {
+    height: 50px;
+    width: 140px;
+    position: absolute;
+    bottom: 0;
+    font-size: large;
+    font-weight: 600;
+    color: #fb4e03;
+    background-color: transparent;
+    border:2px solid #fb4e03;
+    border-radius: 4px;
+}
+
+input[type=button]:hover  {
+    color: #2c2c2c;
+    border:2px solid #2c2c2c;
+    cursor: pointer;
+    transition-property: background-color; 
+    transition-duration: 0.2s;
+  }
+
+/* icons */
+h3 span.email-icon {
+    display: inline-block;
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+    background-image: url("/images/about-me/about-icons/email-icon.png");
+    background-size: cover;
+}
+
+h3 span.phone-icon {
+    display: inline-block;
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+    background-image: url("/images/about-me/about-icons/phone-icon.png");
+    background-size: cover;
+}
+
+h3 span.download-icon {
+    display: inline-block;
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+    background-image: url("/images/about-me/about-icons/download-icon.png");
+    background-size: cover;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    width: 100%;
+    margin-top: 3rem;
+    border-top: 1px solid #4d4d4d;
+    z-index: 60;
+}
+
+.logo-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-footer img{
+    width: 30px;
+    height: 30px;
+    margin-top: 1rem;
+}
+
+.social-media-icons {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 42% 4% 4% 4% 42%;
+    grid-template-rows: repeat(1, 1fr);
+    margin: 0.6rem;
+}
+/* how to make these icons have the same relative distance? */
+
+.social-media-icons :nth-child(1) {
+    grid-column: 2;
+}
+
+#footer-text {
+    color: #6f6f6f;
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+#footer-text-links {
+    display: flex;
+}
+
+#footer-text-links p{
+    padding-right: 20px;
+}
+
+#footer-text-links a{
+    color: #6f6f6f;
+}
+
+
+/* media-query */
+@media (min-width: 0px) and (max-width: 1200px) {
+
+    h1 {
+        font-family: 'Lato', sans-serif;
+        color: #25d3f4;
+        font-size: 3rem;
+        font-weight: 900;
+        letter-spacing: -2px;
+        line-height: 1.3;
+    }
+
+    #my-website {
+        margin-left: 20px;
+    }
+
+    .content-body-2 {
+        margin-left: 20px;
+        margin-right:20px
+    }
+
+    .introduction {
+        display: contents;
+    }
+
+    .photo-and-contact-me {
+        text-align: center;
+    }
+
+    .self-introduction {
+        margin-top: 50px;
+    }
+
+    #footer-text {
+        margin-left: 20px;
+        margin-right:20px
+    }
+
+}
+
+
+@media (min-width: 0px) and (max-width: 970px) {
+    .content-body-1 {
+        margin-left: 16%;
+        margin-right: 16%;
+    }
+
+    .content-body-2 {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .content-body-2 h2{
+        text-align: center;
+    }
+
+    input[type=button] {
+        position: relative;
+    }
+
+    #footer-text {
+        display: block;
+        text-align: center;
+    }
+
+    #footer-text-links {
+        justify-content: center;
+    }
+
+}
+
+
+
+@media (min-width: 450px) and (max-width: 800px) {
+    .social-media-icons {
+        grid-template-columns: 37.5% 7% 7% 7% 37.5%;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 450px) {
+    .social-media-icons {
+        grid-template-columns: 34.5% 9% 9% 9% 34.5%;
+    }
+}

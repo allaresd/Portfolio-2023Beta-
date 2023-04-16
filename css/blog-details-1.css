@@ -149,12 +149,6 @@ nav li{
     background-color: white;
 }
 
-
-.previous {
-    margin-left: 16%;
-    margin-right: 46%;
-}
-
 .content-body-2 {
     position: relative;
     max-width: 1000px;
@@ -200,6 +194,12 @@ nav li{
     margin-right: 60px;
     margin-left: 60px;
     padding-bottom: 60px;
+}
+
+#time-stamp {
+    padding-top: 20px;
+    text-align: right;
+
 }
 
 
@@ -309,7 +309,7 @@ footer {
     .article-cover img {
         height: auto;
         width: 100%;
-        object-fit:fill;
+        object-fit: cover;
     }
 
     p {
