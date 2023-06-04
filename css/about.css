@@ -57,12 +57,12 @@ p {
     line-height: 25px;
 }
 
-p a {
+h4 a {
     text-decoration: none;
     color: #25d3f4;
 }
 
-p a:hover, a:focus {
+h4 a:hover, a:focus {
     color: #fb4e03;
     padding-bottom: 4px;
     font-weight: 500;
@@ -353,12 +353,6 @@ footer {
         margin-top: 30px;
         text-align: left;
     }
-
-    #footer-text {
-        margin-left: 20px;
-        margin-right:20px
-    }
-
 }
 
 
