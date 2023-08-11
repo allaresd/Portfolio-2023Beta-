@@ -197,7 +197,10 @@ nav li{
     padding-top: 100px;
 }
 
-
+#project-1 {
+    margin-top: 7rem;
+    margin-bottom: 0rem;
+}
 
 #project-2 {
     margin-top: 7rem;
@@ -376,6 +379,11 @@ footer {
 
     input[type=button] {
         position: relative;
+    }
+
+    #project-1 {
+        margin-top: 16rem;
+        margin-bottom: 0rem;
     }
 
     #project-2 {
